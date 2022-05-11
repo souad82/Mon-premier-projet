@@ -1,0 +1,39 @@
+/* Reset CSS */ /*POUR METTRE UNE LIGNE EN COMMENTAIRE ON APPYUIE SUR MAJ + CTRL + / */
+
+
+* {
+    margin: 0; /*remove marjin*/
+    padding: 0; /*remove default padding*/
+    box-sizing: border-box; /*to make sure all elements are the same size*/
+    list-style: none; /*remove bullets*/
+    text-decoration: none; /*remove underline*/
+}
+
+/* Variables*/
+:root {
+        --blue: #5465FF;
+}
+
+/* Navigation*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation_items a {
+
+    color:#101010;
+}
+
+.navigation_items a svg {
+
+    color:var(--blue);
+}
+
